@@ -2,6 +2,11 @@
 
 /* Shared Styles */
 
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
 .Work-Sans-font {
   font-family: "Work Sans", sans-serif;
 }
@@ -118,10 +123,6 @@ main > section {
 .our-features {
   margin-left: 70px;
   max-width: 400px;
-}
-.feature-title {
-  font-size: 2rem;
-  font-weight: 700;
 }
 
 #quick-list {
