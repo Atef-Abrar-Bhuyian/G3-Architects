@@ -9,6 +9,10 @@
   display: flex;
 }
 
+.text-primary {
+  color: #ff900e;
+}
+
 /* dark 02 */
 .text-gray {
   color: #424242;
@@ -38,6 +42,15 @@
   font-weight: 600;
   border-radius: 8px;
   border: none;
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+main > section {
+  margin-top: 130px;
 }
 
 /* Header Styles Start Here */
@@ -82,4 +95,42 @@
 
 .banner img {
   width: 100%;
+}
+
+/* Teams and feature related style */
+
+.teams {
+  width: 80%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.teams-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.teams-img-container img {
+  width: 100%;
+}
+
+.our-features {
+  margin-left: 70px;
+  max-width: 400px;
+}
+.feature-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#quick-list {
+  font-weight: 500;
+}
+/* Responsive */
+
+@media screen and (max-width: 576px) {
+  .navbar,
+  .nav-links {
+    flex-direction: column;
+  }
 }
