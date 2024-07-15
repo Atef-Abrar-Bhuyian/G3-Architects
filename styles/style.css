@@ -1,0 +1,35 @@
+/* Shared Styles */
+/* .font {
+  font-family: ;
+} */
+
+.display-flex {
+  display: flex;
+}
+
+/* Primary Font */
+.bg-primary {
+  background-color: orange;
+}
+
+/* Header Styles Start Here */
+
+.header {
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+nav > ul {
+  gap: 40px;
+}
+
+/* Header Styles Ends Here */
