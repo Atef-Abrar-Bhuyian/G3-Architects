@@ -1,10 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 /* Shared Styles */
-/* .font {
-  font-family: ;
-} */
+.Work-Sans-font {
+  font-family: "Work Sans", sans-serif;
+}
 
 .display-flex {
   display: flex;
+}
+
+/* dark 02 */
+.text-gray {
+  color: #424242;
+}
+
+/* dark 03 */
+.text-light-gray {
+  color: #727272;
 }
 
 /* Primary Font */
@@ -12,24 +24,62 @@
   background-color: orange;
 }
 
+.bg-light {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* primary button */
+.btn-primary {
+  background-color: #ff900e;
+  color: white;
+  padding: 15px 25px;
+  font-size: 1.05rem;
+  /* semi bold 600 */
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+}
+
 /* Header Styles Start Here */
 
-.header {
+/* Navbar style */
+.navbar {
   justify-content: space-between;
-  max-width: 1000px;
-  margin: 0 auto;
+  align-items: center;
 }
-
-nav ul li {
+.nav-items {
   list-style: none;
+  margin-right: 30px;
 }
 
-.header a {
+.nav-link {
   text-decoration: none;
 }
 
-nav > ul {
-  gap: 40px;
+.navbar,
+.banner {
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
-/* Header Styles Ends Here */
+.brand {
+  /* 700 bold */
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+/* Banner Related Styles */
+.banner-content {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.banner img {
+  width: 100%;
+}
