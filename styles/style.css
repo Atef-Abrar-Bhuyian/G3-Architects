@@ -129,6 +129,48 @@ main > section {
   font-weight: 500;
 }
 
+/* love and enjoy section */
+
+.love-and-enjoy-container {
+  width: 80%;
+  margin: 0 auto;
+  gap: 20px;
+  /* height: 600px; */
+}
+
+.love-and-enjoy-content {
+  width: 40%;
+  /* height: height: 600px;; */
+}
+
+.love-and-enjoy-container img {
+  width: 80%;
+  /* height: 100%; */
+  margin-left: 150px;
+}
+
+.all-features {
+  width: 500px;
+  /* height: 130px; */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+}
+
+#experience-badge {
+  padding: 45px 42px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 100px;
+  margin-top: -250px;
+}
+
+#experience-year {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
 /* Some Facts related style */
 .some-facts-section {
   max-width: 80%;
